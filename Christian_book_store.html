@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Christian Book Store</title>
+        <link rel="stylesheet" href="css/survey.css" />
+    </head>
+    <body>
+        <h1>Philadelphia Christian Book Store</h1>
+        <img src='IMG_4080.JPG' width="400" alt="My picture" />
+        <section id="About">
+            <h2>
+                About Us
+            </h2>
+            <nav>
+                <a href="#About">About Us</a> <a href="#Catagory">Catagory</a> <a href="#Quotes">Quotes from church fathers</a>
+            </nav>
+
+    </body>
+    </html>
+    <ul>
+        <li>
+            We are Christians
+        </li>
+        <li>
+            We are located in Dallas
+        </li>
+        <li>
+            We are currently working on a project for Bible Translation
+        </li>
+
+    </ul>
+</section>
+
+<section id="Catagory">
+    <h2>
+        Catagory of Books
+    </h2>
+    <ul>
+        <li>
+            <a href="https://Christianbooks.com">Christian Devotiotional Books</a>
+        </li>
+
+        <li>
+            <a href="https://online.nph.net/books/theology-doctrine/christian-doctrine-theology.html">Christian Doctrinal Books</a>
+        </li>
+        <li>
+            <a href="https://www.amazon.com/Best-Sellers-Books-Christian-Pastoral-Resources/zgbs/books/7282069011">Pastoral Books</a>
+        </li>
+        <li>
+            Our Favourite verse Of The Bible
+            <img src="IMG_4080.JPG" width="400" alt="Bible Verse" />
+        </li>
+    </ul>
+</section>
+
+        <section id="Quotes">
+            <h2>
+                Quotes from church fathers
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://www.goodreads.com/quotes/tag/church-fathers">Quotes from church fathers</a>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+        <h3>Video</h3>
+        <Video src="Videos/Beethoven_12_Variation.mp3" controls loop>
+             Your browser does not support HTML5 video. Here is <a href="Videos/Beethoven_12_Variation.mp3"> a link to the video</a> instead.
+        </Video>
+    </section>
+
+
+    <h4>Your Feed Back</h4>
+    <form class="survey-form" action="https://learn.nucamp.co/show_everything.php" method="post">
+        <fieldset>
+             <legend>Your Information</legend>
+             <div>
+                 <label for="FirstName">First Name:</label>
+                  <input type="text" id="FirstName" name="firstname" placeholder="Your first name" />
+
+             </div>
+             <div>
+                 <label for="LastName">Last Name:</label>
+                  <input type="text" id="LastName" name="Lastname" placeholder="Your Last Name" />
+             </div>
+             <div>
+                 <label for="YourEmail">Your Email:</label>
+                 <input type="email" id="YourEmail" name="email" placeholder="Your Email address" />
+             </div>
+        </fieldset>
+        <fieldset>
+             <legend>Survey Questions</legend>
+             <div>
+                 Favorite Authors:
+                 <input type="checkbox" id="john-calvin" name="author" value="john-calvin" />
+                 <label for="john-calvin">John Calvin</label>
+                 <input type="checkbox" id="luther" name="author" value="luther" />
+                 <label for="luther">Luther</label>
+                 <input type="checkbox" id="agustine" name="author" value="agustine" />
+                 <label for="agustine">Agustine</label>
+             </div>
+             Your Tradition:
+             <select name="favourite-traditions" >
+                <option>Calvin</option>
+                <option>Arminus</option>
+                <option>Puritans</option>
+                <option>Lutheran</option>
+                <option>Weslyan</option>
+            </select>
+
+        </fieldset>
+        <input type="submit" id="submit-btn"  />
+    </form>
+    <section>
+        <h2>Contact Us</h2>
+        <p>Call us at: <a href="tel:+15555551212">1-555-555-1212</a></p>
+        <p>email us at: philadelphia@yahoo1.com</p>
+        <address>
+            CSS Corner Cafe<br />
+            101 W Main St<br />
+            Dallas, TX 98004
+        </address>
+    </section>
+</section>
